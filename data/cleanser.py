@@ -6,6 +6,10 @@ jsonfile = open('nba-2021.json', 'w')
 
 fieldnames = ("Visitor","Visitor pts","Home","Home pts")
 reader = csv.DictReader( csvfile, fieldnames)
-for row in reader:
-    json.dump(row, jsonfile)
-    jsonfile.write('\n')
+for i,row in enumerate(reader):
+    if i == 0:
+        jsonfile.write('[')
+    else:
+        json.dump(row, jsonfile)
+        jsonfile.write(',\n')
+jsonfile.write(']')
