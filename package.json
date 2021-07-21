@@ -1,0 +1,23 @@
+{
+  "name": "simple-nba-neural-network",
+  "version": "1.0.0",
+  "description": "Simple JavaScript neural network using Brain.js",
+  "main": "nba.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edmundcheng221/simple-nba-neural-network.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edmundcheng221/simple-nba-neural-network/issues"
+  },
+  "homepage": "https://github.com/edmundcheng221/simple-nba-neural-network#readme",
+  "dependencies": {
+    "brain.js": "*"
+  }
+}
